@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Inter Light";
+  src: url(../font/Inter-Light.ttf);
+}
+@font-face {
+  font-family: "Inter Regular";
+  src: url(../font/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter Bold";
+  src: url(../font/Inter-Bold.ttf);
+}
+
+:root {
+  --text-black: #2b2c2e;
+  --heading-black: #27282a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2,
+h3 {
+  font-family: "Inter Bold";
+  color: var(--heading-black);
+}
+
+p,
+a {
+  font-family: "Inter Regular";
+  color: var(--text-black);
+}
+
+/* # header style */
+
+header {
+  padding-top: 17px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10vw 105px 10vw;
+  position: sticky;
+  top: 17px;
+}
+
+.nav_links {
+  display: flex;
+  gap: 2vw;
+}
+
+.nav_links a {
+  font-size: clamp(0.1rem, 1.5vw, 1.3rem);
+}
+
+.logo {
+  font-size: clamp(0.1rem, 2.5vw, 2.4rem);
+  font-family: "Inter Bold";
+}
+
+.get_started {
+  font-size: clamp(0.1rem, 2vw, 1.7rem);
+  padding: 7px 55px;
+  border-radius: 4px;
+  border: 1px solid var(--text-black);
+}
+
+.hero h1 {
+  text-align: center;
+  font-family: "Inter Light";
+  font-size: clamp(0.1rem, 5vw, 4rem);
+  font-weight: 300;
+  margin-bottom: 37px;
+}
