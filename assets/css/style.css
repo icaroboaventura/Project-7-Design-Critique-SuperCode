@@ -13,7 +13,7 @@
 
 :root {
   --text-black: #2b2c2e;
-  --text-gray: #9fa2a7;
+  --text-gray: #848689;
   --heading-black: #27282a;
   --white: #fff;
 }
@@ -49,10 +49,10 @@ a {
   font-size: clamp(0.1rem, 2.5vw, 2.1rem);
 }
 
-.body_wrapper {
+/* .body_wrapper {
   max-width: 1320px;
   margin: 0 auto;
-}
+} */
 
 /* # header style */
 
@@ -60,7 +60,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 105px;
+  padding: 15px 10vw;
   margin-bottom: 90px;
   position: sticky;
   top: 0;
@@ -100,8 +100,9 @@ nav {
 
 .price {
   display: flex;
-  justify-content: space-between;
-  padding: 150px 105px;
+  justify-content: center;
+  padding: 150px 10vw;
+  gap: 50px;
 }
 
 .price_text {
@@ -120,4 +121,37 @@ nav {
 .price_tag p {
   line-height: 22px;
   color: var(--text-gray);
+}
+
+/* # style deliverables section */
+
+.deliverables {
+  padding: 60px 10vw;
+  display: flex;
+}
+
+.deliverables img {
+  width: 40vw;
+  object-fit: contain;
+}
+
+.deliverables_con {
+  margin-left: -50px;
+}
+
+.deliverables_con h2 {
+  font-size: clamp(0.1rem, 5.5vw, 5.5rem);
+  margin-bottom: 60px;
+}
+
+.deliverables_con h3 {
+  font-size: clamp(0.1rem, 2.5vw, 2.3rem);
+  margin-bottom: 27px;
+}
+
+.deliverables_con p {
+  font-size: clamp(0.1rem, 2vw, 1.9rem);
+  color: var(--text-gray);
+  line-height: 26px;
+  margin-bottom: 30px;
 }
