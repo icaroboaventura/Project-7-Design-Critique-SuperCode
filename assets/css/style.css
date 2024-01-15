@@ -219,4 +219,37 @@ nav {
   align-self: start;
 }
 
+/* # style footer */
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-top: 1px solid var(--text-gray);
+  padding-top: 100px;
+}
+
+footer h2 {
+  font-size: clamp(0.1rem, 5vw, 4.8rem);
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-bottom: 50px;
+}
+
+footer img {
+  max-width: 20%;
+}
+
+footer p {
+  color: var(--text-gray);
+}
+
+footer span {
+  color: var(--text-black);
+}
