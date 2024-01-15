@@ -49,10 +49,10 @@ a {
   font-size: clamp(0.1rem, 2.5vw, 2.1rem);
 }
 
-/* .body_wrapper {
+.body_wrapper {
   max-width: 1320px;
   margin: 0 auto;
-} */
+}
 
 /* # header style */
 
@@ -154,4 +154,25 @@ nav {
   color: var(--text-gray);
   line-height: 26px;
   margin-bottom: 30px;
+}
+
+/* # style how and who section */
+
+.how_and_who {
+  padding: 60px 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f4;
+}
+
+.how_and_who h2 {
+  font-size: clamp(0.1rem, 5vw, 5rem);
+  margin-bottom: 20px;
+}
+
+.how_and_who p {
+  color: var(--text-gray);
+  line-height: 26px;
+  margin-bottom: 20px;
 }
