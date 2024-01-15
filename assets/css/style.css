@@ -13,7 +13,9 @@
 
 :root {
   --text-black: #2b2c2e;
+  --text-gray: #9fa2a7;
   --heading-black: #27282a;
+  --white: #fff;
 }
 
 * {
@@ -44,26 +46,30 @@ p,
 a {
   font-family: "Inter Regular";
   color: var(--text-black);
+  font-size: clamp(0.1rem, 2.5vw, 2.1rem);
+}
+
+.body_wrapper {
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
 /* # header style */
-
-header {
-  padding-top: 17px;
-}
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 10vw 105px 10vw;
+  padding: 15px 105px;
+  margin-bottom: 90px;
   position: sticky;
-  top: 17px;
+  top: 0;
+  background-color: var(--white);
 }
 
 .nav_links {
   display: flex;
-  gap: 2vw;
+  gap: 23px;
 }
 
 .nav_links a {
@@ -88,4 +94,30 @@ nav {
   font-size: clamp(0.1rem, 5vw, 4rem);
   font-weight: 300;
   margin-bottom: 37px;
+}
+
+/* # style price section */
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 105px;
+}
+
+.price_text {
+  max-width: 710px;
+  line-height: 32px;
+}
+
+.price_tag {
+  max-width: 155px;
+}
+
+.price_tag h2 {
+  font-size: clamp(0.1rem, 6.5vw, 6.1rem);
+}
+
+.price_tag p {
+  line-height: 22px;
+  color: var(--text-gray);
 }
