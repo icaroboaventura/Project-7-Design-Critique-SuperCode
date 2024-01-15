@@ -11,8 +11,6 @@
 - Lists
 - CSS Position
 - Box Model
-- Padding
-- Margin
 - Pseudo-Elements
 - Class & IDs
 - Git
