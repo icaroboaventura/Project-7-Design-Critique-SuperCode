@@ -4,7 +4,7 @@
  **Week:** 5  
  **Project Nr.:** 7  
  **Project Name:** Design Critique Landingpage  
- **Project Link:**  
+ **Project Link:** https://icaroboaventura.github.io/Project-7-Design-Critique-SuperCode/   
  **Project goal:** to put into practice what I learned in 5 weeks of the bootcamp.  
 `Topics like:`  
 - Semantic HTML
@@ -15,9 +15,10 @@
 - Class & IDs
 - Git
 - Units
-- Display Flex
+- Flexbox
 - Forms
 - Grid
+- CSS Animation
 - Media Queries
 ****
 **Figma-Design:**  
